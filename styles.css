@@ -1,0 +1,30 @@
+#whatsapp-link {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+}
+
+#whatsapp-link img {
+  width: 100px; /* Cambia el tamaño de la imagen si lo deseas */
+  height: 100px; /* Cambia el tamaño de la imagen si lo deseas */
+  transition: transform 0.3s; /* Efecto de animación */
+}
+
+#whatsapp-link img:hover {
+  transform: scale(1.1); /* Efecto al pasar el cursor */
+}
+#youtube-link {
+  display: inline-block;
+  margin: 40px; /* Espaciado alrededor del enlace */
+  text-decoration: none; /* Sin subrayado */
+}
+
+#youtube-link img {
+  width: 100px; /* Tamaño de la imagen */
+  height: 100px; /* Tamaño de la imagen */
+  transition: transform 0.3s; /* Animación suave al hacer hover */
+}
+
+#youtube-link img:hover {
+  transform: scale(1.1); /* Aumentar el tamaño al pasar el cursor */
+}
